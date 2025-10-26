@@ -1,8 +1,3 @@
-// Simula Auth REST
-// Auth.login(creds) => Promise<User> o lanza Error
-// Credenciales válidas: usuario1@mitienda.com / password
-
-
 export const Auth = {
 async login({ email, password }) {
 await new Promise(r => setTimeout(r, 400));
